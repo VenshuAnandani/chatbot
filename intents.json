@@ -1,0 +1,245 @@
+{
+    "intents": [
+        {
+            "intent": "greeting",
+            "patterns": [
+                "Hi",
+                "Hello",
+                "Hey"
+            ],
+            "responses": [
+                "Hi there",
+                "Hello",
+                "Hey"
+            ]
+        },
+        {
+            "intent": "goodbye",
+            "patterns": [
+                "Bye",
+                "See you later",
+                "Goodbye",
+                "Take care"
+            ],
+            "responses": [
+                "Goodbye",
+                "See you later",
+                "Take care"
+            ]
+        },
+        {
+            "intent": "help",
+            "patterns": [
+                "Help",
+                "I need help",
+                "Can you help me",
+                "What should I do"
+            ],
+            "responses": [
+                "Sure, what do you need help with?",
+                "I'm here to help. What's the problem?",
+                "How can I assist you?"
+            ]
+        },
+        {
+            "intent": "gen-services",
+            "patterns": [
+                "What services do you offer?",
+                "Can you tell me about your services?"
+            ],
+            "responses": [
+                "We offer a comprehensive range of services, including professional web development, app development, and application maintenance. Whether you need a brand-new website, a custom-built mobile app, or support for your existing applications, our team is here to deliver solutions that help your business thrive in the digital age."
+            ]
+        },
+        {
+            "intent": "service-1",
+            "patterns": [
+                "Do you offer web development services?",
+                "Can you tell me about your web development services?"
+            ],
+            "responses": [
+                "Our web development services are designed to create responsive, user-friendly, and visually appealing websites that reflect your brand identity and cater to your target audience. From static websites to dynamic portals, we ensure seamless performance, cross-browser compatibility, and adherence to the latest web standards."
+            ]
+        },
+        {
+            "intent": "service-2",
+            "patterns": [
+                "Do you offer app development services?",
+                "Can you tell me about your app development services?"
+            ],
+            "responses": [
+                "We specialize in developing mobile applications for Android, iOS, and cross-platform environments. Our team focuses on creating intuitive user experiences, robust functionalities, and scalable solutions to meet your specific business needs. Whether it's an e-commerce app or an enterprise solution, we deliver apps that drive engagement and efficiency."
+            ]
+        },
+        {
+            "intent": "service-3",
+            "patterns": [
+                "Do you offer application maintenance services?",
+                "Can you tell me about your application maintenance services?"
+            ],
+            "responses": [
+                "Yes, our application maintenance services ensure that your software remains secure, up-to-date, and performs optimally. We provide regular updates, patch bugs, and introduce new features to align with your evolving business requirements. Our proactive approach ensures minimal downtime and a seamless user experience."
+            ]
+        },
+        {
+            "intent": "faq-1",
+            "patterns": [
+                "What is Void Main Pvt. Ltd.?",
+                "Can you tell me about your company?"
+            ],
+            "responses": [
+                "Void Main Pvt. Ltd. is a cutting-edge technology company specializing in IT solutions. We focus on providing services such as web development, app development, and application maintenance. Our team is dedicated to delivering innovative, user-friendly, and scalable solutions that help businesses grow and adapt to the ever-evolving digital landscape."
+            ]
+        },
+        {
+            "intent": "faq-2",
+            "patterns": [
+                "Where is your company located?",
+                "What is your office location?"
+            ],
+            "responses": [
+                "Our company is headquartered at Chhatrapati Sambhajinagar, Maharashtra. We are proud to operate in a state-of-the-art facility designed to foster innovation and collaboration. For more detailed directions or to schedule a visit, please refer to our contact page on our website."
+            ]
+        },
+        {
+            "intent": "faq-3",
+            "patterns": [
+                "What are your working hours?",
+                "When can I contact you?"
+            ],
+            "responses": [
+                "Our standard working hours are Monday to Friday, from 9:00 AM to 6:00 PM. During these hours, our team is available to assist you with inquiries, provide support, and collaborate on projects. If you need to reach us outside these hours, feel free to send an email, and we will respond as soon as possible."
+            ]
+        },
+        {
+            "intent": "faq-4",
+            "patterns": [
+                "How can I contact your company?",
+                "What is your contact information?"
+            ],
+            "responses": [
+                "You can contact us via email at contact@voidmain.com for general inquiries or support@voidmain.com for technical assistance. Additionally, you can call us at 0240-254-8910 during our working hours. For more information, visit the contact section on our website."
+            ]
+        },
+        {
+            "intent": "faq-5",
+            "patterns": [
+                "Do you provide customer support?",
+                "How can I get help with my issue?"
+            ],
+            "responses": [
+                "Yes, we provide dedicated customer support to assist you with any issues or questions. Our support team is equipped to handle technical problems, answer queries, and guide you through our services. You can reach us via email at support@voidmain.com or call our helpline at 0240-254-8910 during our working hours."
+            ]
+        },
+        {
+            "intent": "faq-6",
+            "patterns": [
+                "What industries do you serve?",
+                "Which sectors do you specialize in?"
+            ],
+            "responses": [
+                "We serve a diverse range of industries, including healthcare, e-commerce, education, and finance. Our team has extensive experience in creating solutions that address the unique challenges and opportunities within each sector, ensuring that our services align with your specific industry needs."
+            ]
+        },
+        {
+            "intent": "faq-7",
+            "patterns": [
+                "Do you offer custom development services?",
+                "Can you customize solutions for my business?"
+            ],
+            "responses": [
+                "Yes, we excel in custom development services tailored to your business requirements. Whether you need a bespoke application, a unique web solution, or specific functionality, our team collaborates closely with you to understand your goals and deliver a solution that perfectly aligns with your objectives."
+            ]
+        },
+        {
+            "intent": "faq-8",
+            "patterns": [
+                "What technologies do you use?",
+                "Which programming languages do you work with?"
+            ],
+            "responses": [
+                "Our team is proficient in a wide array of modern technologies and programming languages, including Python, JavaScript, React, Node.js, and Flutter. We leverage the most suitable tools and frameworks to ensure your projects are not only functional and robust but also scalable and future-proof."
+            ]
+        },
+        {
+            "intent": "faq-9",
+            "patterns": [
+                "Do you offer maintenance for existing applications?",
+                "Can you support and update my existing app?"
+            ],
+            "responses": [
+                "Absolutely! We provide comprehensive maintenance and support services for existing applications. This includes regular updates, performance optimizations, bug fixes, and adding new features as your business evolves, ensuring your application remains effective and up-to-date."
+            ]
+        },
+        {
+            "intent": "faq-10",
+            "patterns": [
+                "What is your pricing model?",
+                "How do you charge for your services?"
+            ],
+            "responses": [
+                "Our pricing model is designed to be flexible and transparent, depending on the scope and complexity of your project. We offer detailed consultations to understand your requirements and provide a clear and competitive quote. Whether it's a one-time development cost or ongoing maintenance, we ensure you get the best value for your investment."
+            ]
+        },
+        {
+            "intent": "service-web-pricing",
+            "patterns": [
+                "How much does web development cost?",
+                "What is the pricing for your web development services?"
+            ],
+            "responses": [
+                "Our web development pricing depends on several factors, such as the complexity of the design, the number of pages, and the functionalities required. We provide tailored pricing to ensure you get value for your investment. After a consultation, we deliver a detailed project proposal, including a cost breakdown and timeline."
+            ]
+        },
+        {
+            "intent": "service-app-timeline",
+            "patterns": [
+                "How long does it take to develop an app?",
+                "What is the usual timeline for app development?"
+            ],
+            "responses": [
+                "The development timeline for an app varies based on the scope, features, and platform requirements. A basic app might take around 8-12 weeks, while more complex applications could require several months. We follow an agile methodology to deliver each phase incrementally, ensuring quality and timely feedback."
+            ]
+        },
+        {
+            "intent": "support-response-time",
+            "patterns": [
+                "How quickly do you respond to support queries?",
+                "What is your response time for customer support?"
+            ],
+            "responses": [
+                "We aim to respond to all customer queries within 24 hours on business days. Critical issues are prioritized for immediate resolution to ensure minimal disruption to your operations. Our dedicated support team works closely with you to address any concerns effectively and efficiently."
+            ]
+        },
+        {
+            "intent": "client-collaboration",
+            "patterns": [
+                "How involved will I be in the development process?",
+                "Do you involve clients during project development?"
+            ],
+            "responses": [
+                "Client collaboration is at the heart of our process. From the initial requirement gathering to design approval and development phases, we ensure regular communication through meetings, progress updates, and feedback sessions. Your input helps us align the solution with your vision and goals."
+            ]
+        },
+        {
+            "intent": "company-certifications",
+            "patterns": [
+                "What certifications does your company hold?",
+                "Are your developers certified?"
+            ],
+            "responses": [
+                "Our company holds several industry certifications that highlight our commitment to excellence. Our developers are certified in technologies like React, Node.js, Python, and more. Additionally, we emphasize continuous learning to keep our team updated with the latest tools and practices in web and app development."
+            ]
+        },
+        {
+            "intent": "billing-and-contracts",
+            "patterns": [
+                "What are your payment terms?",
+                "Do you offer flexible payment plans?"
+            ],
+            "responses": [
+                "We offer flexible payment terms to accommodate the unique needs of each client. Typically, our payment structure involves milestone-based payments, where you pay after achieving specific project deliverables. This ensures transparency and builds trust throughout the development process."
+            ]
+        }
+    ]
+}
